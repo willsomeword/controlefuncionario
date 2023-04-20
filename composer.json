@@ -1,0 +1,13 @@
+{
+    "require": {
+        "dompdf/dompdf": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        },
+        "files": [
+            "src/Config/fixos.php"
+        ]
+    }
+}
